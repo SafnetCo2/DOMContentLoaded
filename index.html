@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>asyc and defer</title>
+  </head>
+  <body>
+    <h1>asyc and defer</h1>
+    <main>
+      <div class="controls">
+        <button id="reload" type="button">Reload</button>
+      </div>
+      <div class="event-log">
+        <label for="event-log">Event log:</label>
+        <textarea
+          readonly
+          class="event-log-contents"
+          id=""
+          cols="30"
+          rows="8"
+          placeholder="type here..."
+        ></textarea>
+      </div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
